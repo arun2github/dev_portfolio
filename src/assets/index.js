@@ -48,10 +48,11 @@ import jnvs from './education/JNV_Logo.jpg'
 import fb from './facebook.png'
 import instagram from './instagram.png'
 import ln from './ln.png'
-import webLogo from './webLogo.svg'
+import webLogo from './plogo.png'
 import nodeMailer from './nodeM.png'
 import netflix from './net.jpg'
-
+import fincare from './fincare.png'
+import flutter from './flutter.jpg'
 export {
   logo,
   backend,
@@ -102,5 +103,7 @@ export {
   ln,
   webLogo,
   nodeMailer,
-  netflix
+  netflix,
+  fincare,
+  flutter
 };

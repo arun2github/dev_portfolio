@@ -23,7 +23,7 @@ const Tech = () => {
 
       <div className='flex flex-row flex-wrap justify-center gap-10 mt-[100px]'>
         {technologies.map((technology) => (
-          <div className='w-28 h-28 mt-4' key={technology.name}>
+          <div className='w-28 h-28 mt-2' key={technology.name}>
             <BallCanvas
               icon={technology.icon}
             />

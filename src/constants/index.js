@@ -44,7 +44,9 @@ import {
   fb,
   github,
   nodeMailer,
-  netflix
+  netflix,
+  fincare,
+  flutter
 } from "../assets";
 
 export const navLinks = [
@@ -63,6 +65,10 @@ export const navLinks = [
 ];
 
 const services = [
+  {
+    title: "App Developer",
+    icon: flutter,
+  },
   {
     title: "Web Developer",
     icon: web,
@@ -143,15 +149,31 @@ const technologies = [
     name: "Dialog flow",
     icon: df,
   },
+  {
+    name: "Flutter",
+    icon: flutter,
+  },
 ];
 
 const experiences = [
+  {
+    title: "Flutter Developer",
+    company_name: "Fincare Small finance Bnak",
+    icon: fincare,
+    iconBg: "#383E56",
+    date: "Jun 2022 - ongoing",
+    points: [
+      "Developing and maintaining App using Flutter and Material Design and other related technologies.",
+      "Develop reusable Widgets and write efficient code using GetX",
+
+    ],
+  },
   {
     title: "React.js Developer",
     company_name: "Schrocken Inc.",
     icon: schrocken,
     iconBg: "#383E56",
-    date: "May 2022 - ongoing",
+    date: "May 2022 - April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -310,43 +332,43 @@ const projects = [
     image: qem,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Instagram Clone",
-    description:
-      "A social media Web App that allows users to Create Post share photos from their lives, add captions. Project is Implemented Using Ruby On Rails framework for the Back-end and for Front-end Back-end HAML, CSS, JS and SQLite.It has Functions One can Create a post, upload share images, and do like and comment.",
-    tags: [
-      {
-        name: "ruby",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rubyOnrails",
-        color: "green-text-gradient",
-      },
-      {
-        name: "js",
-        color: "red-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "haml",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SQlLite",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: ins,
-    source_code_link: "https://github.com/arun2github/RUBYONRAILS",
-  },
+  // {
+  //   name: "Instagram Clone",
+  //   description:
+  //     "A social media Web App that allows users to Create Post share photos from their lives, add captions. Project is Implemented Using Ruby On Rails framework for the Back-end and for Front-end Back-end HAML, CSS, JS and SQLite.It has Functions One can Create a post, upload share images, and do like and comment.",
+  //   tags: [
+  //     {
+  //       name: "ruby",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "rubyOnrails",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "js",
+  //       color: "red-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "haml",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "SQlLite",
+  //       color: "yellow-text-gradient",
+  //     },
+  //   ],
+  //   image: ins,
+  //   source_code_link: "https://github.com/arun2github/RUBYONRAILS",
+  // },
   {
     name: "Netflix Clone",
     description:

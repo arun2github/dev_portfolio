@@ -16,10 +16,10 @@ const App = () => {
         <Tech />
         <Works />
         <Education />
-        <div className="relative z-0">
+        <Contact />
+        {/* <div className="relative z-0">
           <Contact />
-
-        </div>
+        </div> */}
       </div>
     </BrowserRouter>
 

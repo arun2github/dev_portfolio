@@ -12,21 +12,21 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915eff]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
 
-
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} `}> Hi, I'm
             <span
-              className='text-[#915eff]'>Arun</span>
+              className='text-[goldenrod]'>Arun</span>
 
           </h1>
           <div>
 
           </div>
 
-          <p className={`${styles.heroSubText} mt-2 text-white-100 animate-bounce  duration-1000 fill-forwards`}>
+          <p className={`${styles.heroSubText} mt-2 text-goldenrod-100 animate-bounce  duration-1000 fill-forwards`}>
             I develop user <br className='sm:block hidden' />
-            interfaces and web applications
+            interfaces , web applications <br className='sm:block hidden' />
+            and mobile apps for the modern era.
           </p>
 
         </div>
@@ -34,7 +34,7 @@ const Hero = () => {
 
       <div className='absolute xs:bottom-3 bottom-5 w-full flex justify-center items-center'>
         <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-black flex justify-center items-start p-2'>
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -44,7 +44,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-2'
+              className='w-3 h-3 rounded-full bg-black mb-2'
             />
           </div>
         </a>
