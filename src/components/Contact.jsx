@@ -119,30 +119,6 @@ const Contact = () => {
         </form>
       </motion.div>
 
-      <motion.div
-        variants={slideIn('right', 'tween', 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] mt-[20rem]'
-      >
-        <hr
-          className='mb-[20px]'
-        />
-        <Social />
-        <hr
-          className='mt-[20px]'
-        />
-        <div className='flex mt-[20px] gap-20'>
-          <div>
-            <h1
-            >Design & Developed by : <span>Arun Kumar</span></h1>
-
-          </div>
-          <div>
-            <h3>M <span>itsarun.fsd@gmail.com</span></h3>
-            <h4>T <span>+91-8882726711</span></h4>
-          </div>
-        </div>
-
-      </motion.div>
 
 
     </div>
