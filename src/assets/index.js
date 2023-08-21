@@ -54,6 +54,7 @@ import netflix from './net.jpg'
 import fincare from './fincare.png'
 import flutter from './flutter.jpg'
 
+
 export {
   logo,
   backend,
