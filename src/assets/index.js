@@ -53,6 +53,7 @@ import nodeMailer from './nodeM.png'
 import netflix from './net.jpg'
 import fincare from './fincare.png'
 import flutter from './flutter.jpg'
+import crossSell from './CrossSell.jpg'
 
 
 export {
@@ -107,5 +108,6 @@ export {
   nodeMailer,
   netflix,
   fincare,
-  flutter
+  flutter,
+  crossSell
 };

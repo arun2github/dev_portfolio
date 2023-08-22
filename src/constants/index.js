@@ -46,7 +46,8 @@ import {
   nodeMailer,
   netflix,
   fincare,
-  flutter
+  flutter,
+  crossSell
 } from "../assets";
 
 export const navLinks = [
@@ -274,6 +275,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "FincareOne | CrossSell",
+    description:
+      "FincareOne is the Mobile Application aims to create a feature-rich clone of the Microsoft Kaizala mobile application using Flutter, GetX, and Material Design. By leveraging these technologies, the application will offer a seamless and user-friendly communication and collaboration experience, encompassing messaging, group interactions, task management, polls, and more. The use of Firebase and a well-designed backend will ensure real-time synchronization and data security. The end result will be a powerful and efficient communication platform suitable for organizations and individuals ",
+    tags: [
+      {
+        name: "Flutter",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Material Design",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GetX",
+        color: "green-text-gradient",
+      },
+
+    ],
+    image: crossSell,
+    source_code_link: "https://github.com/",
+  },
   {
     name: "Cell and Gene Therapy",
     description:
